@@ -1,0 +1,34 @@
+# Ignore generated configuration and build files
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.h
+config.h.in
+config.log
+config.status
+configure
+depcomp
+install-sh
+missing
+stamp-h1
+
+# Ignore object files and binaries
+*.o
+*.lo
+*.la
+*.a
+simple_program
+
+# Ignore editor and IDE specific files
+*~
+*.swp
+*.bak
+.DS_Store
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.out
+
